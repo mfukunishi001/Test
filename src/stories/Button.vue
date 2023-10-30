@@ -38,7 +38,7 @@ export default {
         'storybook-button': true,
         'storybook-button--primary': props.primary,
         'storybook-button--secondary': !props.primary,
-        [`storybook-button--${props.size || 'large'}`]: true,
+        [`storybook-button--${props.size || 'small'}`]: true,
       })),
       style: computed(() => ({
         backgroundColor: props.backgroundColor,
