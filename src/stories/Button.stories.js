@@ -24,8 +24,8 @@ export const Primary = {
   args: {
     primary: true,
     label: 'ボタン',
-    size: 'small',
-    backgroundColor: '#ff0101',
+    size: 'large',
+    backgroundColor: '#0003ff',
   },
 };
 
