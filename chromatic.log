@@ -4,44 +4,111 @@ https://www.chromatic.com/docs/cli
 
 Authenticating with Chromatic
     → Connecting to https://index.chromatic.com
-    → No app with code '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' found
+Authenticated with Chromatic
+    → Using project token '****************c660'
+Retrieving git information
+Retrieved git information
+    → Commit '1023e84' on branch 'master'; found 1 parent build
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.0.6 for Vue3; using the @storybook/vue3-vite builder (7.0.6); supported addons found: Links, Essentials, Interactions
+Initializing build
+Initialized build
+    → Build 5 initialized
+Building your Storybook
+    → Running command: yarn run build-storybook --output-dir C:\Users\7115469\AppData\Local\Temp\chromatic--37824-2ugI43fkYicP
+Storybook built in 1 minute 36 seconds
+    → View build log at C:\Users\7115469\Downloads\DemoTest\新しいフォルダー\taskbox\build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 0%
+    → [                    ] 2%
+    → [=                   ] 3%
+    → [=                   ] 5%
+    → [=                   ] 6%
+    → [==                  ] 8%
+    → [==                  ] 10%
+    → [===                 ] 13%
+    → [===                 ] 14%
+    → [===                 ] 15%
+    → [===                 ] 17%
+    → [====                ] 18%
+    → [====                ] 20%
+    → [====                ] 22%
+    → [=====               ] 26%
+    → [=====               ] 27%
+    → [======              ] 28%
+    → [======              ] 29%
+    → [======              ] 30%
+    → [======              ] 31%
+    → [======              ] 32%
+    → [=======             ] 33%
+    → [=======             ] 34%
+    → [=======             ] 36%
+    → [========            ] 39%
+    → [========            ] 40%
+    → [=========           ] 43%
+    → [=========           ] 45%
+    → [=========           ] 47%
+    → [==========          ] 48%
+    → [==========          ] 49%
+    → [==========          ] 50%
+    → [==========          ] 51%
+    → [==========          ] 52%
+    → [===========         ] 54%
+    → [===========         ] 55%
+    → [===========         ] 56%
+    → [===========         ] 57%
+    → [============        ] 58%
+    → [============        ] 60%
+    → [============        ] 61%
+    → [=============       ] 63%
+    → [=============       ] 64%
+    → [=============       ] 65%
+    → [=============       ] 66%
+    → [=============       ] 67%
+    → [==============      ] 68%
+    → [==============      ] 69%
+    → [==============      ] 71%
+    → [==============      ] 72%
+    → [===============     ] 73%
+    → [===============     ] 74%
+    → [===============     ] 75%
+    → [================    ] 78%
+    → [================    ] 80%
+    → [================    ] 81%
+    → [================    ] 82%
+    → [=================   ] 83%
+    → [=================   ] 85%
+    → [=================   ] 87%
+    → [==================  ] 88%
+    → [==================  ] 89%
+    → [==================  ] 91%
+    → [=================== ] 93%
+    → [=================== ] 96%
+    → [=================== ] 97%
+    → [====================] 98%
+    → [====================] 99%
+Publish complete in 18 seconds
+    → View your Storybook at https://653f63971c35efe149e6b51a-mvzpjnggpz.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 5
+    → View build details at https://www.chromatic.com/build?appId=653f63971c35efe149e6b51a&number=5
+Running 8 tests
+    → This may take a few minutes
+    → [===                 ] 1/8  Button › Primary 
+    → [=====               ] 2/8  Button › Secondary 
+    → [========            ] 3/8  Button › Large 
+    → [=============       ] 5/8  Header › Logged In 
+    → [===============     ] 6/8  Header › Logged Out 
+    → [==================  ] 7/8  Page › Logged Out 
+    → [====================] 8/8  Page › Logged In 
+× Found 4 visual changes: Review the changes at https://www.chromatic.com/build?appId=653f63971c35efe149e6b51a&number=5
 
-× Failed to authenticate
-
-Error communicating with the Chromatic API. Check if your Chromatic client is up-to-date.
-Service status updates are provided at https://status.chromatic.com
-
-→ INTERNAL_SERVER_ERROR: No app with code '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' found
-
-If you need help, please chat with us at https://www.chromatic.com/docs/cli for the fastest response.
-You can also email the team at support@chromatic.com if chat is not an option.
-
-Please provide us with the above CLI output and the following info:
-{
-  "timestamp": "2023-10-31T00:09:50.893Z",
-  "sessionId": "b2ab56bb-5290-475b-b41d-9b5b7f19ccf6",
-  "nodePlatform": "win32",
-  "nodeVersion": "18.16.0",
-  "packageName": "chromatic",
-  "packageVersion": "7.5.4",
-  "flags": {
-    "projectToken": [
-      "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"
-    ],
-    "outputDir": [],
-    "storybookBuildDir": [],
-    "externals": [],
-    "onlyStoryFiles": [],
-    "onlyStoryNames": [],
-    "untraced": [],
-    "interactive": true,
-    "appCode": []
-  },
-  "configuration": {},
-  "buildScript": "storybook build",
-  "exitCode": 202,
-  "exitCodeKey": "GRAPHQL_ERROR",
-  "errorType": "GraphQLError",
-  "errorMessage": "× Failed to authenticate"
-}
-
+i For CI/CD use cases, this command failed with exit code 1
+Pass --exit-zero-on-changes to succeed this command regardless of changes.
+Pass --auto-accept-changes to succeed and automatically accept any changes.
